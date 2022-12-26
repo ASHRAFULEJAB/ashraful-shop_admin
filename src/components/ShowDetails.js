@@ -31,7 +31,7 @@ const ShowDetails = () => {
     return (
         <div className="order-section">
             <Navbar />
-            <Link to='/'><button className='goback-btn'>Go back</button></Link>
+            <Link to='/orders'><button className='goback-btn'>Go back</button></Link>
 
             <h1 className='order-head1'>Order Details</h1>
             <div className='orderdetails-form'>
